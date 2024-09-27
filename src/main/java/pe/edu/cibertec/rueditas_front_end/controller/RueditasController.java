@@ -104,7 +104,7 @@ public class RueditasController {
                 // Si no se encontro el vehiculo
                 BuscarVehiculoModel buscarVehiculoModel = new BuscarVehiculoModel(
                     "02",
-                    "Ups... Vehiculo no encontrado.",
+                    "Ups... El vehiculo con placa " + placa + " no fue encontrado.",
                     "",
                     "",
                     0,
